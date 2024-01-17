@@ -34,3 +34,8 @@ hr {
 .vertical-line {
     border-right: 3px solid black;
 }
+
+.winner {
+    background-color: lightgray;
+    color: red;
+}
