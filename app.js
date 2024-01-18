@@ -84,6 +84,8 @@ function checkWinner(){
                 let tile = document.getElementById(c.toString() + '-' + i.toString())
                 tile.classList.add('winner')
             }
+            gameOver = true;
+            return;
         }
     }
 }
